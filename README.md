@@ -9,4 +9,4 @@
 - [disel](https://diesel.rs/)
 - [async-graphql](https://github.com/async-graphql/async-graphql)
     - [examples](https://github.com/async-graphql/examples)
-- [graphiql](https://github.com/graphql/graphiql)
+- [graphiql-app](https://github.com/skevy/graphiql-app)
