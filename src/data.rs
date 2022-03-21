@@ -1,10 +1,6 @@
 use crate::model::Episode;
-use async_graphql::{EmptyMutation, EmptySubscription, Schema};
 use slab::Slab;
 use std::collections::HashMap;
-
-pub use crate::model::QueryRoot;
-pub type StarWarsSchema = Schema<QueryRoot, EmptyMutation, EmptySubscription>;
 
 pub struct StarWarsChar {
     pub id: &'static str,
