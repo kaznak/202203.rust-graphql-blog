@@ -1,7 +1,7 @@
 #![allow(clippy::needless_lifetimes)]
 
-use crate::data::StarWars;
-use crate::data::StarWarsChar;
+use crate::model::starwars::data::StarWars;
+use crate::model::starwars::data::StarWarsChar;
 use async_graphql::connection::{query, Connection, Edge, EmptyFields};
 use async_graphql::{Context, Enum, Error, Interface, Object, Result};
 use async_graphql::{EmptyMutation, EmptySubscription, Schema};

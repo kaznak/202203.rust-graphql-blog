@@ -6,8 +6,8 @@ use axum::response::{self, IntoResponse};
 use axum::routing::get;
 use axum::{AddExtensionLayer, Router, Server};
 
-use rust_graphql_blog::data::StarWars;
-use rust_graphql_blog::model::{QueryRoot, StarWarsSchema};
+use rust_graphql_blog::model::starwars::data::StarWars;
+use rust_graphql_blog::model::starwars::model::{QueryRoot, StarWarsSchema};
 
 async fn graphql_handler(
     schema: Extension<StarWarsSchema>,

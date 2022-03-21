@@ -1,4 +1,4 @@
-use crate::model::Episode;
+use crate::model::starwars::model::Episode;
 use slab::Slab;
 use std::collections::HashMap;
 
